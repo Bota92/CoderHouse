@@ -1,0 +1,98 @@
+body{
+    background:#C9E4CA ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#293364 ;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+*h1{
+    font-size: 2rem;
+    line-height: 1.2em;
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #87BBA2;
+    color: #364958;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;    
+
+
+}
+
+header a{
+    color:#364958 ;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+    
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.9seg linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #86b199;
+}
+
+@media only screen and (max-widht:767px) {
+    nav ul{
+        height:230px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.main{
+    padding-top: 12rem;
+}
+
+.footer{
+    background:#87BBA2 ;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
